@@ -12,5 +12,6 @@
 <body>
     <h1>Richard Feynman</h1>
     <p><?php echo $richardFeynman ?></p>
+    <p>Censured word: <?php echo $_GET["censured"] ?></p>
 </body>
 </html>
