@@ -8,11 +8,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PHP badword</title>
 </head>
 <body>
     <h1>Richard Feynman</h1>
     <p><?php echo $richardFeynman ?></p>
+    <h3>Paragraph length: <?php echo strlen($richardFeynman); ?></h3>
     <p>Censured word: <?php echo $_GET["censured"] ?></p>
     <p><?php echo $richardFeynman2 ?></p>
 </body>
